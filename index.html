@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated FAQ Section</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1841e44d3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <h2>JavaScript Interview Questions and Answers</h2>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>1. What are the differences between Java and JavaScript? </h4>
+          <i class="icon active fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer active">
+          <p>
+            JavaScript is a client-side scripting language and Java is object Oriented Programming language, both of them are totally different from each other.
+            <br>
+            1. JavaScript: It is a light-weighted programming language (“scripting language”) used to develop interactive web pages. It can insert dynamic text into the HTML elements. JavaScript is also known as the browser’s language.
+            <br>
+            2. Java: Java is one of the most popular and widely used programming languages. It is an object-oriented programming language and has a virtual machine platform that allows you to create compiled programs that run on nearly every platform. Java promised, “Write Once, Run Anywhere”.
+          </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>2. What would be the result of 3+2+”7″?</h4>
+          <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            Here, 3 and 2 behave like an integer, and “7” behaves like a string. So 3 plus 2 will be 5. Then the output will be 5+”7″ = 57.
+          </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>3. What is the use of the isNaN function?</h4>
+          <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            The number isNan function in JavaScript is used to determine whether the passed value is NaN (Not a number) and is of the type “Number”. In JavaScript, the value NaN is considered a type of number. It returns true if the argument is not a number, else it returns false.
+          </p>
+        </div>
+    </div>
+
+    
+    <div class="accordian">
+        <div class="question">
+          <h4>4. Which is faster in JavaScript and ASP script?</h4>
+          <i class="icon active fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer active">
+          <p>
+            JavaScript is faster compared to ASP Script because JavaScript is a client-side scripting language and does not depend on the server to execute it but the ASP script is a server-side scripting language always dependable on the server.
+          </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>5. What is negative infinity?</h4>
+          <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            The negative infinity in JavaScript is a constant value that is used to represent the lowest available value. It means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation. JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+          </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>6. What are undeclared and undefined variables?</h4>
+          <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword.
+            <br>
+            Undeclared: It occurs when we try to access any variable which is not initialized or declared earlier using the var or const keyword. If we use ‘typeof’ operator to get the value of an undeclared variable, we will face the runtime error with the return value as “undefined”. The scope of the undeclared variables is always global.
+          </p>
+        </div>
+    </div>
+
+    
+    <div class="accordian">
+        <div class="question">
+          <h4>7. What is a prompt box?</h4>
+          <i class="icon active fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer active">
+          <p>
+            It is used to display a dialog box with an optional message prompting the user to input some text. It is often used if the user wants to input a value before entering a page. It returns a string containing the text entered by the user, or null.
+          </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>8. What is the ‘this’ keyword in JavaScript?</h4>
+          <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            Functions in JavaScript are essential objects. Like objects, they can be assigned to variables, passed to other functions, and returned from functions. And much like objects, they have their own properties. ‘this’ stores the current execution context of the JavaScript program. Thus, when it is used inside a function, the value of ‘this’ will change depending on how the function is defined, how it is invoked, and the default execution context.
+          </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>9. Explain the working of timers in JavaScript? Also elucidate the drawbacks of using the timer, if any.</h4>
+          <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            The timer is used to execute some specific code at a specific time or any small amount of code in repetition to do that you need to use the functions setTimout, setInterval, and clearInterval. If the JavaScript code set the timer to 2 minutes and when the times are up then the page displays an alert message “times up”. The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
+          </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+          <h4>10. What is the difference between ViewState and SessionState?</h4>
+          <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            ViewState: It is specific to a single page in a session.
+            <br>
+            SessionState: It is user specific that can access all the data on the web pages.
+          </p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
